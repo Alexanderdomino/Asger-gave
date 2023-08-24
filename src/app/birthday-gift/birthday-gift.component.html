@@ -1,0 +1,9 @@
+<div class="catch-message">{{ message }}</div>
+
+<div class="present-container" [style.left.px]="presentX" [style.top.px]="presentY" (mouseenter)="movePresent()" (click)="playSound(); showActivationCode()">
+  <img src="./assets/images/14912735-christmas-dog-with-present-removebg-preview.png" alt="Present" class="present-image">
+</div>
+
+<div *ngIf="activationCodeVisible" class="activation-code">
+  <p class="spinning-text">{{ activationCode }}</p>
+</div>

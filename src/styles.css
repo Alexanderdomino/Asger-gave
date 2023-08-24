@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('https://www.genialegaver.dk/wp-content/uploads/2021/11/Gave-til-oldemor-fantastiske-gaveideer-til-oldemor-1024x536.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+/* Override default Angular app container styles */
+.app-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
